@@ -1,0 +1,41 @@
+body
+{
+    height: 100%;
+    max-width: 100%;
+    background-color: #e5dada;
+    color: #02040f;
+    margin: 0%;
+}
+
+div.cabecera
+{
+    margin: 0% 0% 1% 0% ;
+    display: flex;
+    border: 1px solid black;
+}
+
+div.menu
+{
+
+    display: flex;
+    border: 1px solid black;
+    float: left;
+    width: 15%;
+    height: 20%;
+}
+
+section.contenido
+{
+    display: flex;
+    position:relative;
+    max-width: 80%;
+    bottom: 100%; 
+    margin: 1% auto;
+    border: 1px solid black;
+}
+
+footer
+{
+    clear: both;
+    border: 1px solid black;
+}
