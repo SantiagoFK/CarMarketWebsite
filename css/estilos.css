@@ -1,26 +1,46 @@
+/*generales*/
+html, body
+{
+    height: 100vh;
+    width: 100vw;
+}
+
 body
 {
-    height: 100%;
-    max-width: 100%;
     background-color: white;
     color: #02040f;
-    margin: 0%;
+    box-sizing: border-box;
 }
 
-header div.logo
+/*header*/
+
+header
 {
     display: flex;
-    border: 1px solid black;
-    background-color: white;
-    height: 250px;
+    max-height: 40vh;
+    width: 100vw;
 }
 
-header div.logo > img
+header img#logo
 {
-    border: 1px solid black;
+    position: relative;
+    left: 5%;
+    background-color: white;
+    height: 40vh;
 }
 
-div.menu
+header > input#barraBuscador
+{
+    position: absolute;
+    top: 20%;
+    left: 60%;
+    height: 5vh;
+    width: 30vw;
+}
+
+/*navegacion*/
+
+nav#menu
 {
     display: flex;
     border: 1px solid black;
@@ -28,13 +48,17 @@ div.menu
     background-color: gainsboro;
 }
 
-div.contenido
+/*main*/
+
+main section.contenido
 {
     display: flex;
     border: 1px solid black;
     background-color: darkgrey;
     height: 500px;
 }
+
+/*footer*/
 
 footer div.finalPag
 {
