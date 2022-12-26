@@ -1,3 +1,15 @@
+/*iconos google*/
+@import url("https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined");
+
+header > span#iconoAuto
+{
+    position: absolute;
+    left: 91%;
+    top: 20%;
+    color: black;
+    font-size: 2em;
+}
+
 /*generales*/
 html, body
 {
@@ -41,12 +53,28 @@ header > input#barraBuscador
 
 /*navegacion*/
 
-nav#menu
+nav
 {
     display: flex;
-    border: 1px solid black;
     margin: 0;
     background-color: gainsboro;
+    height: 7vh;
+}
+
+nav > a
+{
+    text-decoration: none;
+    width: 10vw;
+    padding: 13px;
+    text-align: center;
+    font-weight: bold;
+    color: black;
+    transition: all 0.3s;
+}
+
+nav > a:hover
+{
+    background-color: #FF5A36;
 }
 
 /*main*/
@@ -54,7 +82,6 @@ nav#menu
 main section.contenido
 {
     display: flex;
-    border: 1px solid black;
     background-color: darkgrey;
     height: 500px;
 }
