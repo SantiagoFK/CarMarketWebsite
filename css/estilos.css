@@ -79,11 +79,24 @@ nav > a:hover
 
 /*main*/
 
-main section.contenido
+main section#contenidoSlider
 {
     display: flex;
-    background-color: darkgrey;
-    height: 500px;
+    background-color: white;
+    height: 100vh;
+}
+
+main > section > div#slider
+{
+    width: 50vw;
+    margin: auto;
+}
+
+main > section#contenidoPosSlider
+{
+    display: flex;
+    background-color: gainsboro;
+    height: 30vh;
 }
 
 /*footer*/
@@ -91,7 +104,7 @@ main section.contenido
 footer div.finalPag
 {
     background-color: black;
-    height: 200px;
+    height: 70vh;
     border: 1px solid black;
     color: orangered;
     text-align: center;
